@@ -3,7 +3,7 @@ const pageConfig = {
   title: "数字套利 •「AM科技」's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://amclubss.com', label: '博客', highlight: true },
+    { link: 'https://amclubss.com', label: 'AI网站监控', highlight: true },
     { link: 'https://809098.xyz', label: 'Blog'},
     { link: 'https://youtube.com/@AM_CLUBS', label: 'YouTube' },
     { link: 'https://github.com/amclubs', label: 'GitHub' }, 
@@ -50,14 +50,36 @@ const workerConfig = {
     },
     // Example TCP Monitor
     {
-      id: '809098.xyz',
-      name: 'Blog',
+      id: '8090987.xyz',
+      name: 'wuyue',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://809098.xyz',
+      target: 'https://mkyun-openclaw6.hf.space',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://809098.xyz',
+      statusPageLink: 'https://mkyun-openclaw6.hf.space',
+      timeout: 10000,
+    },
+    {
+      id: '8090988.xyz',
+      name: 'wuyue',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://xuyiyi123-openclawplus.hf.space',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://xuyiyi123-openclawplus.hf.space',
+      timeout: 10000,
+    },
+    {
+      id: '8090989.xyz',
+      name: 'wuyue',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://xulei123-openclaw.hf.space',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://xulei123-openclaw.hf.space',
       timeout: 10000,
     },
   ],
