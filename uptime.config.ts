@@ -58,7 +58,7 @@ const workerConfig = {
       target: 'https://mkyun-openclaw6.hf.space',
       //tooltip: 'My production server monitor',
      // statusPageLink: 'https://mkyun-openclaw6.hf.space',
-      timeout: 10000,
+      timeout: 100000,
     },
     {
       id: '8090988.xyz',
@@ -69,7 +69,7 @@ const workerConfig = {
       target: 'https://xuyiyi123-openclawplus.hf.space',
       //tooltip: 'My production server monitor',
       //statusPageLink: 'https://xuyiyi123-openclawplus.hf.space',
-      timeout: 10000,
+      timeout: 100000,
     },
     {
       id: '8090989.xyz',
@@ -80,7 +80,7 @@ const workerConfig = {
       target: 'https://xulei123-openclaw.hf.space',
     //tooltip: 'My production server monitor',
       //statusPageLink: 'https://xulei123-openclaw.hf.space',
-      timeout: 10000,
+      timeout: 100000,
     },
   ],
   notification: {
