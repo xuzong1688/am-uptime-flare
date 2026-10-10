@@ -56,30 +56,30 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://mkyun-openclaw6.hf.space',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://mkyun-openclaw6.hf.space',
+      //tooltip: 'My production server monitor',
+     // statusPageLink: 'https://mkyun-openclaw6.hf.space',
       timeout: 10000,
     },
     {
       id: '8090988.xyz',
-      name: 'wuyue',
+      name: 'xuyiyi',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://xuyiyi123-openclawplus.hf.space',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://xuyiyi123-openclawplus.hf.space',
+      //tooltip: 'My production server monitor',
+      //statusPageLink: 'https://xuyiyi123-openclawplus.hf.space',
       timeout: 10000,
     },
     {
       id: '8090989.xyz',
-      name: 'wuyue',
+      name: 'xulei',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://xulei123-openclaw.hf.space',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://xulei123-openclaw.hf.space',
+    //tooltip: 'My production server monitor',
+      //statusPageLink: 'https://xulei123-openclaw.hf.space',
       timeout: 10000,
     },
   ],
